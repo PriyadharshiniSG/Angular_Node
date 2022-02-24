@@ -1,0 +1,84 @@
+
+/* .content{
+    padding: 2.5rem;
+}
+p{
+    align-items: center;
+    font-size: 17px;
+    justify-content: center;
+}
+h1{
+   font-size: 35px; 
+} */
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+
+}
+.container{
+    margin: 0 auto;
+    width: 650px;
+    display: flex ;
+    /* size: 100px; */
+    border-radius: 20px;
+    max-height: 960px;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 12px;
+    margin: 2em;
+    overflow: hidden;
+}
+.card1{
+    background-color:  hsl(31, 77%, 52%);
+    /* width: 100%; */
+    padding: 40px;
+}
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    /* width: 100%; */
+    padding: 40px;
+}
+.card3{
+    background-color:  hsl(179, 100%, 13%);
+    /* width: 100%; */
+    padding: 40px;
+}
+/* .card{
+    padding: 40px;
+} */
+
+h2{
+font-family:'Big Shoulders Display', cursive ;
+font-weight: 700;
+padding: 22px 10px;
+text-transform: uppercase;
+
+
+}
+p{
+    align-items: center;
+    font-size: 11px;
+    
+}
+a{
+    background-color: white;
+}
+ 
+.text1 h6{
+    color:  hsl(31, 77%, 52%);
+}
+/* font-fam

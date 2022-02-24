@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style>
+        #RoyalEnfield 
+        {
+            color: #ff0000;
+        }
+        #Yamaha 
+        {
+            color: green;
+        }
+        a 
+        {
+            color: #ff0000;
+            text-decoration: none;
+        }
+        a:hover 
+        {
+            text-decoration: underline;
+        }
+        /* a[href="https://www.royalenfield.com"] 
+        {
+            color: blue;
+        }
+        a[href="https://www.yamaha-motor-india.com"] 
+        {
+            color: green;
+        } */
+        a[href*="royalenfield.com"] 
+        {
+            color: blue;
+        }
+        a[href*="yamaha-motor-india.com"] 
+        {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    Visit 
+    <p ><a href="https://www.royalenfield.com">RoyalEnfield</a></p>
+    or
+    <p><a href="https://www.yamaha-motor-india.com" >Yamaha</a></p>
+    or
+    <p><a href="https://www.yamaha-motor-india.com/">Yamaha</a></p>
+</body>
+</html>

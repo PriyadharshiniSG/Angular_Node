@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraphs</title>
+    <style>
+        /* #last
+        {
+            color: green;
+            font-size: larger;
+        } */
+        p:nth-child(1n+1) 
+        {
+            color: cyan;
+            font-size: larger;
+        }
+         /* p:nth-child(even) 
+        {
+            color: orange;
+            font-size: larger;
+        }
+        p:nth-child(odd) 
+        {
+            color: brown;
+            font-size: larger; 
+        } */
+        p:first-child 
+        {
+            color: red;
+            font-size: larger;
+        }
+        p:last-child 
+        {
+            color: blue;
+            font-size: larger;
+        } 
+    </style>
+</head>
+<body>
+    <p >
+        Vivamus pulvinar tellus sed enim gravida, 
+        eget volutpat tortor iaculis.
+        Maecenas ultrices efficitur aliquet. </p>
+     <p>  In facilisis mattis commodo. 
+        Sed sodales tempor euismod. </p> 
+    <p>   Pellentesque sit amet quam et mauris dictum consequat.
+        Suspendisse ut velit eget eros laoreet consequat sed sit amet erat. 
+        Praesent lobortis lacus vitae velit suscipit consequat. </p> 
+    <p>   Sed gravida leo vitae ante suscipit suscipit. 
+        Etiam commodo, nisl non tristique semper,</p>
+    <p> risus eros porttitor enim, 
+        vel condimentum nunc orci quis sapi</p>
+    <p id="last">   Sed faucibus erat ex, lacinia luctus massa gravida id.
+        Mauris posuere nibh vel nunc convallis cursus.</p>
+    
+</body>
+</html>
