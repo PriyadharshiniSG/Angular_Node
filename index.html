@@ -1,23 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <style>
+        body {
+            text-align: left;
+            background-color: yellowgreen;
+            box-sizing: border-box;
+            padding: auto;
+        }
+
+        caption {
+            font-size: 35px;
+            color: red;
+        }
+
+        thead {
+            font-size: large;
+            text-align: center;
+        }
+        th{
+            font-size: 30px;
+            color: brown;
+        }
+
+        /* tbody {} */
+
+        a:link {
+            font-size: 25px;
+            text-decoration: none;
+            color: goldenrod;
+        }
+
+        a:visited {
+            color: rebeccapurple;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        a:active {
+            color: red;
+        }
+    </style>
 </head>
+
 <body>
     <div>
         <table style="margin:auto">
-            <caption>
-                Menu - HTML
+            <caption> Menu - HTML
             </caption>
             <thead>
-            <tr>
-                <th scope="col" width="50">
-                    Pages
-                </th>
-            </tr>
+                <tr>
+                    <th scope="col">
+                        Pages
+                    </th>
+                </tr>
+                
             </thead>
             <tbody>
                 <tr>
@@ -82,10 +126,15 @@
                         <div>
                             <a href="./src/csslessons/challenge3.html">Profile Card</a>
                         </div>
-                    </td>
+                        <div>
+                            <a href="./src/csslessons/challenge4.html">NFT Card</a>
+                        </div>
+                      </td>
                 </tr>
+                
             </tbody>
         </table>
     </div>
 </body>
+
 </html>
