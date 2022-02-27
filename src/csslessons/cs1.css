@@ -24,7 +24,7 @@ body{
     color: white;
     font-size: 15px;
     background-color: hsl(0, 0%, 95%);
-
+    justify-content: center;
 }
 .container{
     margin: 0 auto;
@@ -44,18 +44,30 @@ body{
 }
 .card1{
     background-color:  hsl(31, 77%, 52%);
-    /* width: 100%; */
     padding: 40px;
+    max-width: 350px;
+    max-height: 900px;
+    line-height: 1.5rem;
+    border-radius: 15px;
+
 }
 .card2{
     background-color: hsl(184, 100%, 22%);
-    /* width: 100%; */
     padding: 40px;
+    max-width: 350px;
+    line-height: 1.5rem;
+    max-height: 900px;
+    border-radius: 15px;
+    
 }
 .card3{
     background-color:  hsl(179, 100%, 13%);
-    /* width: 100%; */
     padding: 40px;
+    max-width: 350px;
+    line-height: 1.5rem;
+    max-height: 900px;
+    border-radius: 15px;
+  
 }
 /* .card{
     padding: 40px;
@@ -81,4 +93,3 @@ a{
 .text1 h6{
     color:  hsl(31, 77%, 52%);
 }
-/* font-fam
