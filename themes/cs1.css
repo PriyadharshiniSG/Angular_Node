@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+a{
+    background-color: white;
+}
+body{
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+    color: white;
+    display: flex;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    justify-content: center;
+    min-height: 100vh;
+}
+.card1 ,
+.card2 ,
+.card3 {
+    /* background-color:  hsl(31, 77%, 52%); */
+    border-radius: 15px;
+    line-height: 1.5rem;
+    max-height: 900px;
+    max-width: 350px;
+    padding: 40px;
+}
+.card1 {
+    background-color:  hsl(31, 77%, 52%);
+}
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    /* border-radius: 15px;
+    line-height: 1.5rem;
+    max-height: 900px;
+    max-width: 350px;
+    padding: 40px;  */
+}
+.card3{
+    background-color:  hsl(179, 100%, 13%);
+    /* border-radius: 15px;
+    line-height: 1.5rem;
+    max-height: 900px;
+
+    padding: 40px;
+    max-width: 350px; */
+  
+}
+.container{
+    border-radius: 20px;
+    display: flex ;
+    margin: 0 auto;
+    max-height: 960px;
+    width: 650px;
+}
+.grid{
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2em;
+    overflow: hidden;
+}
+h2{
+    font-family:'Big Shoulders Display', cursive ;
+    font-weight: 700;
+    padding: 22px 10px;
+    text-transform: uppercase;
+}
+p{
+    align-items: center;
+    font-size: 11px;
+    
+}
+.text1 h6{
+    color:  hsl(31, 77%, 52%);
+}

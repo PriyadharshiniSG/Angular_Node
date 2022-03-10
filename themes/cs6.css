@@ -3,22 +3,22 @@
   padding: 0;
 }
 body {
+  background-color: hsl(270, 20%, 96%);
   font-size: 16px;
   font-family: 'Rubik', sans-serif;
-  background-color: hsl(270, 20%, 96%);
 }
 section {
-  height: 100vh;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  height: 100vh;
   justify-content: center;
-  align-items: center;
 }
 .phone {
-  width: 65%;
-  padding: 3%;
   border-radius: 20px;
   background-color: white;
+  padding: 3%;
+  width: 65%;
 }
 .message {
   background-color: hsl(270, 20%, 96%);
@@ -26,34 +26,29 @@ section {
   color: white;
 }
 .background {
-  background-image: linear-gradient(
-    to right,
-    hsl(264, 100%, 61%),
-    hsl(293, 100%, 63%)
-  );
+  background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
   border-radius: 20px 20px 10px 10px;
 }
 .camera {
-  text-align: center;
   background-color: white;
-  width: 50%;
-  margin: auto;
-  height: 20px;
   border-radius: 0px 0px 15px 15px;
+  height: 20px;
+  margin: auto;
+  text-align: center;
+  width: 50%;
 }
 .head {
-  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   padding-top: 5%;
   padding-bottom: 5%;
+  width: 100%;
 }
 .left-part {
-  display: flex;
   align-items: center;
-  width: 75%;
+  display: flex;
   justify-content: space-evenly;
+  width: 75%;
 }
 .left-part img {
   border-radius: 20px;
@@ -61,31 +56,31 @@ section {
   width: 25px;
 }
 .description p {
-  font-size: 10px;
   color: hsl(270, 20%, 96%);
+  font-size: 10px;
 }
 .three-dot {
   margin-right: 5%;
 }
 .left-msg {
-  width: 60%;
-  font-size: 10px;
-  margin-top: 4%;
-  margin-left: 2%;
-  padding: 3%;
   border-radius: 10px;
   background-color: lightgray;
   color: hsl(264, 100%, 61%);
-}
-.right-msg {
-  width: 60%;
   font-size: 10px;
   margin-top: 4%;
   margin-left: 2%;
   padding: 3%;
+  width: 60%;
+}
+.right-msg {
   border-radius: 10px;
   background-color: white;
   color: black;
+  font-size: 10px;
+  margin-top: 4%;
+  margin-left: 2%;
+  padding: 3%;
+  width: 60%; 
 }
 .right {
   display: flex;
@@ -100,21 +95,17 @@ section {
   width: 55px;
 }
 .payment {
-  padding: 5%;
-  font-size: 10px;
-  background-image: linear-gradient(
-    to left,
-    hsl(264, 100%, 61%),
-    hsl(293, 100%, 63%)
-  );
+  align-items: center;
+  background-image: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  border-radius: 10px;
   color: white;
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between;
   margin-top: 4%;
   margin-left: 2%;
+  padding: 5%;
   width: 65%;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .payment p {
   font-size: 16px;
@@ -125,86 +116,60 @@ section {
   justify-content: center;
 }
 .send {
-  background-color: white;
-  margin-top: 7%;
-  padding: 2%;
-  margin-bottom: 3%;
-  width: 90%;
-  border-radius: 30px;
-  font-size: 11px;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  background-color: white;
+  border-radius: 30px;
   color: black;
+  display: flex;
+  font-size: 11px;
+  justify-content: space-between;
+  margin-top: 7%;
+  margin-bottom: 3%;
+  padding: 2%;
+  width: 90%;
 }
 .angle-right {
+  align-items: center;
   background-color: purple;
   border-radius: 100px;
-  width: 9%;
   color: white;
-  font-size: 20px;
   display: flex;
+  font-size: 20px;
   justify-content: center;
-  align-items: center;
   padding: 2%;
+  width: 9%;
 }
 .fact {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
   margin-top: 8%;
+  text-align: center;
 }
 .fact h2 {
   font-size: 40px;
 }
 .fact p {
-  width: 80%;
-  margin-top: 3%;
   color: grey;
+  margin-top: 3%;
+  width: 80%;
 }
 .purple {
-  width: 50%;
-  height: 50vh;
   background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
-  position: absolute;
   border-radius: 0px 0px 1000px 0px;
+  height: 50vh;
+  position: absolute;
+  width: 50%;
   z-index: -1;
 }
 .grey {
-  width: 50%;
-  height: 50vh;
   background-image: rgba(240, 234, 234, 0.582);
-  position: absolute;
-  bottom: 0;
-  right: 0;
   border-radius: 1000px 0px 0px 0px;
+  bottom: 0;
+  height: 50vh;
+  position: absolute;
+  right: 0;
+  width: 50%;
   z-index: -1;
 }
-/* @media only screen and(min-width:865px) {
-  section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .phone {
-    width: 25%;
-    padding: 1%;
-  }
-  .fact {
-    width: 35%;
-    text-align: left;
-    align-items: flex-start;
-    margin-left: 10%;
-  }
-  .purple {
-    width: 30%;
-    height: 80vh;
-    border-radius: 0px 0px 1000px 1000px;
-  }
-  .grey {
-    width: 30%;
-    height: 80vh;
-    border-radius: 1000px 55px 0px 0px;
-  }
-} */
+
