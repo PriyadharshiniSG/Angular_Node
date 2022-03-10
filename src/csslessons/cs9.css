@@ -34,7 +34,7 @@ body {
   padding: 50px 20px 20px;
   border-radius: 10px 100px 10px 10px;
 }
-.leftitem {
+.left-item {
   padding: 15px;
   display: flex;
 }
@@ -67,7 +67,7 @@ body {
   border: hsl(229, 57%, 11%);
   outline: none;
 }
-.pinkgradient {
+.pink-gradient {
   position: relative;
   width: 80%;
   padding: 2px;
@@ -78,7 +78,7 @@ body {
     hsl(335, 100%, 65%)
   );
 }
-.whitedot {
+.white-dot {
   background-color: #fff;
   width: 2vmin;
   height: 2vmin;
@@ -91,7 +91,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.rightitem {
+.right-item {
   margin: 10px 0;
 }
 .chat {
