@@ -18,7 +18,7 @@ h3 {
 }
 .top-section {
   background-color: hsl(193, 100%, 96%);
-  background-image: url('./../images/bg-hero-desktop.png');
+  background-image: url('../images/bg-hero-desktop.png');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3.5rem 5.5rem;

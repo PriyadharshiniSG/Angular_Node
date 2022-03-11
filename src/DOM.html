@@ -34,12 +34,12 @@
         <input title="enter your name" type="text" id="txtName" value="TomandJerry" onchange="myfun()" />
     </p>
     <script>
-       /* console.dir(document);
-        console.log(document.URL);
-        console.dir(document.children[0]);
-        console.dir(document.children[0].children[0]);
-        console.dir(document.children[0].children[1]);
-        console.dir(document.children[0].children[1].childNodes);*/
+        /* console.dir(document);
+         console.log(document.URL);
+         console.dir(document.children[0]);
+         console.dir(document.children[0].children[0]);
+         console.dir(document.children[0].children[1]);
+         console.dir(document.children[0].children[1].childNodes);*/
 
         /*document.getElementById("div01").innerHTML = "Hello World! Updated"
         var a = document.getElementById("txtName");
@@ -66,33 +66,33 @@
         console.dir(document.querySelectorAll('div'));
         document.getElementById('div01').style.color="purple";
         console.dir(document.getElementsByClassName('green'));*/
-        const arr=[1,2,3,4,5,6];
-        const strArr=JSON.stringify(arr);
+        const arr = [1, 2, 3, 4, 5, 6];
+        const strArr = JSON.stringify(arr);
         console.log(strArr);
-        const myObj={
-            firstname:'myfirstname',
-            lastname:'mylastname'
+        const myObj = {
+            firstname: 'myfirstname',
+            lastname: 'mylastname'
         };
         const strjson = JSON.stringify(myObj);
         console.log(strjson);
-        var javastudentlist={"studentlist":[
-                              {"name":"Shinshan","age":"22"},
-                              {"name":"Jerry","age":"22"},
-                              {"name":"Tom","age":"22"}
-                            ]    
+        var javastudentlist = {
+            "studentlist": [
+                { "name": "Shinshan", "age": "22" },
+                { "name": "Jerry", "age": "22" },
+                { "name": "Tom", "age": "22" }
+            ]
         };
         console.log(javastudentlist);
-        const arr1=JSON.parse(strjson);
+        const arr1 = JSON.parse(strjson);
         console.log(arr1);
 
-        function myfun()
-        {
-            document.getElementById("div01").innerText=
-                                  document.getElementById("txtName").value;
-            document.getElementById("div01").style.color='purple'
-            var output= document.getElementById('div01');
-            output.style.backgroundColor = "red" ;
-            output.style.border = "3px solid orange" ;
+        function myfun() {
+            document.getElementById("div01").innerText =
+                document.getElementById("txtName").value;
+            document.getElementById("div01").style.color = 'purple'
+            var output = document.getElementById('div01');
+            output.style.backgroundColor = "red";
+            output.style.border = "3px solid orange";
         };
     </script>
 

@@ -25,7 +25,7 @@ body{
 .img-sec{
     height: 32%;
     width: 100%;
-    background: linear-gradient(hsla(277,100%,25%),rgba(255,255,255,0)),url("../../images/image-header-desktop.jpg");
+    background: linear-gradient(hsla(277,100%,25%),rgba(255,255,255,0)),url("../images/image-header-desktop.jpg");
     background-size: cover;
 }  
 .info{
@@ -66,7 +66,7 @@ h2 span{
         flex-direction: row-reverse;
     }
     .img-sec{
-    background: linear-gradient(hsla(277,100%,25%),rgba(255,255,255,0)),url("../../images/image-header-desktop.jpg");
+    background: linear-gradient(hsla(277,100%,25%),rgba(255,255,255,0)),url("../images/image-header-desktop.jpg");
     background-size: cover;
     height: 100%;
     width: 100%;

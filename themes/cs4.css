@@ -5,7 +5,6 @@
     --blue-yonder:hsl(215, 51%, 70%);
     --cyan:hsl(178, 100%, 50%);
     --white:hsl(0, 0%, 100%);
-
 }
 *{
     margin: 0;
@@ -43,7 +42,7 @@ body{
 }
 .img-src::after{
     --cyan:hsl(178, 100%, 50%);
-    content: url(../../images/icon-view.png);
+    content: url(../images/icon-view.png);
     background: var(--cyan);
     position: absolute;
     inset: 0;
@@ -117,25 +116,4 @@ body{
 {
     color: var(--cyan);
 }
-/* .card{
-    box-shadow: 0 4px 8px  black;
-    width: 50%;
-    height:90%
-} */
-/* .header-image{
-    width: 50%;
-    height: 50%;
-    min-height: 14rem;
-    background-image: url("../../images/image-equilibrium.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    border-radius: 25px 25px 0 0;
-    overflow: hidden;
-} */
-/* 
-  .img-sec img{
-    display: block;
-    height: 50%;
-    width: 50%;
-} */
+

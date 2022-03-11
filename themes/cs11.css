@@ -13,8 +13,8 @@ body {
   text-align: center;
   font-family: 'Spartan', sans-serif;
   font-size: 15px;
-  background: url('../../images/bg-pattern-top-mobile.png') top no-repeat,
-    url('../../images/bg-pattern-bottom-mobile.png') bottom no-repeat;
+  background: url('../images/bg-pattern-top-mobile.png') top no-repeat,
+    url('../images/bg-pattern-bottom-mobile.png') bottom no-repeat;
 }
 
 header,
@@ -81,8 +81,8 @@ h1,
 @media screen and (min-width: 1000px) {
   body {
     margin: 0 3rem;
-    background: url('../../images/bg-pattern-top-desktop.png') top no-repeat,
-      url('../../images/bg-pattern-bottom-desktop.png') bottom no-repeat;
+    background: url('../images/bg-pattern-top-desktop.png') top no-repeat,
+      url('../images/bg-pattern-bottom-desktop.png') bottom no-repeat;
   }
   header {
     display: flex;

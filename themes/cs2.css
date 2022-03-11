@@ -23,7 +23,7 @@ html,body{
 body{
     min-height: 140vh;
     background-color:var(--background-color); 
-    background-image: url("../../images/pattern-background-desktop.png");
+    background-image: url("../images/pattern-background-desktop.png");
     background-repeat: no-repeat;
     background-size: contain;
     overflow-y: scroll;
@@ -51,7 +51,7 @@ body{
     width: 100%;
     height: 100%;
     min-height: 14rem;
-    background-image: url("../../images/illustration-hero.png");
+    background-image: url("../images/illustration-hero.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -98,7 +98,7 @@ body{
 .music-img{
     width: 3.5rem;
     height: 3rem;
-    background-image: url("../../images/icon-music.png");
+    background-image: url("../images/icon-music.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -151,4 +151,11 @@ body{
 }
 .btn-cancel:hover{
     color: var(--red);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }

@@ -4,7 +4,7 @@
   padding: 0px;
 }
 body {
-  background: url('./../images/bg-desktop.png');
+  background: url('../images/bg-desktop.png');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;

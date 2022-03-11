@@ -4,7 +4,7 @@ div
     height: 500px;
     border: 5px solid red;
     color: aquamarine;
-    background-image: url(../../images/120tribute.jpg);
+    background-image: url(../images/120tribute.jpg);
     margin: 100px auto;
 }
 #div1 
@@ -13,7 +13,7 @@ div
     height: 500px;
     border: 5px solid red;
     color: aquamarine;
-    background-image: url(../../images/360pic.jpg);
+    background-image: url(../images/360pic.jpg);
     margin: 100px auto;
     background-size: 200px;
 }
@@ -23,7 +23,7 @@ div
     height: 500px;
     border: 5px solid red;
     color: aquamarine;
-    background-image: url(../../images/360pic.jpg);
+    background-image: url(../images/360pic.jpg);
     margin: 100px auto;
     background-size: 200px;
     background-repeat: no-repeat;
