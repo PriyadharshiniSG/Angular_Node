@@ -4,8 +4,8 @@
 }
 body {
   background-color: hsl(270, 20%, 96%);
-  font-size: 16px;
   font-family: 'Rubik', sans-serif;
+  font-size: 16px;
 }
 section {
   align-items: center;
@@ -15,8 +15,8 @@ section {
   justify-content: center;
 }
 .phone {
-  border-radius: 20px;
   background-color: white;
+  border-radius: 20px;
   padding: 3%;
   width: 65%;
 }
@@ -26,7 +26,11 @@ section {
   color: white;
 }
 .background {
-  background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  background-image: linear-gradient(
+    to right,
+    hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%)
+  );
   border-radius: 20px 20px 10px 10px;
 }
 .camera {
@@ -40,8 +44,8 @@ section {
 .head {
   display: flex;
   justify-content: space-between;
-  padding-top: 5%;
   padding-bottom: 5%;
+  padding-top: 5%;
   width: 100%;
 }
 .left-part {
@@ -63,32 +67,32 @@ section {
   margin-right: 5%;
 }
 .left-msg {
-  border-radius: 10px;
   background-color: lightgray;
+  border-radius: 10px;
   color: hsl(264, 100%, 61%);
   font-size: 10px;
-  margin-top: 4%;
   margin-left: 2%;
+  margin-top: 4%;
   padding: 3%;
   width: 60%;
 }
 .right-msg {
-  border-radius: 10px;
   background-color: white;
+  border-radius: 10px;
   color: black;
   font-size: 10px;
-  margin-top: 4%;
   margin-left: 2%;
+  margin-top: 4%;
   padding: 3%;
-  width: 60%; 
+  width: 60%;
 }
 .right {
   display: flex;
   justify-content: flex-end;
 }
 .images {
-  margin-top: 4%;
   margin-right: 2%;
+  margin-top: 4%;
 }
 .images img {
   border-radius: 10px;
@@ -96,14 +100,18 @@ section {
 }
 .payment {
   align-items: center;
-  background-image: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  background-image: linear-gradient(
+    to left,
+    hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%)
+  );
   border-radius: 10px;
   color: white;
   display: flex;
   font-size: 10px;
   justify-content: space-between;
-  margin-top: 4%;
   margin-left: 2%;
+  margin-top: 4%;
   padding: 5%;
   width: 65%;
 }
@@ -123,8 +131,8 @@ section {
   display: flex;
   font-size: 11px;
   justify-content: space-between;
-  margin-top: 7%;
   margin-bottom: 3%;
+  margin-top: 7%;
   padding: 2%;
   width: 90%;
 }
@@ -172,4 +180,3 @@ section {
   width: 50%;
   z-index: -1;
 }
-

@@ -4,11 +4,11 @@
   padding: 0px;
 }
 body {
-  background: url('../images/bg-desktop.png');
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
   background-color: hsl(229, 57%, 11%);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background: url('../images/bg-desktop.png');
   color: hsl(243, 100%, 93%);
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
@@ -68,8 +68,12 @@ body {
   width: 100%;
 }
 .pink-gradient {
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
   border-radius: 50px;
-  background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%) );
   padding: 2px;
   position: relative;
   width: 80%;
@@ -94,8 +98,8 @@ body {
   background-color: #fff;
   border-radius: 10px 10px 0 10px;
   color: hsl(229, 57%, 11%);
-  font-weight: 700;
   font-size: 32px;
+  font-weight: 700;
   padding: 15px 30px;
   position: absolute;
   right: 40px;
@@ -103,10 +107,10 @@ body {
   z-index: 1;
 }
 .chat:after {
-  border-top: solid 50px #fff;
+  border-bottom: solid 10px transparent;
   border-left: solid 50px transparent;
   border-right: solid 0px transparent;
-  border-bottom: solid 10px transparent;
+  border-top: solid 50px #fff;
   content: '';
   display: block;
   height: 0;

@@ -1,22 +1,20 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  text-align: center;
-  font-family: 'Spartan', sans-serif;
-  font-size: 15px;
   background: url('../images/bg-pattern-top-mobile.png') top no-repeat,
     url('../images/bg-pattern-bottom-mobile.png') bottom no-repeat;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
 }
-
 header,
 main,
 footer {
@@ -25,7 +23,6 @@ footer {
 .intro {
   margin-top: 5rem;
 }
-
 h1 {
   padding-bottom: 1.5rem;
 }
@@ -33,34 +30,31 @@ h1,
 .ratingtext {
   color: hsl(300, 43%, 22%);
 }
-
 .ratingcont {
   margin: 3rem 0;
 }
 .ratingbox {
+  background-color: hsl(300, 24%, 96%);
   margin: 1rem 0;
   padding: 1rem 0;
-  background-color: hsl(300, 24%, 96%);
 }
 .ratingtext {
-  padding-top: 0.5rem;
   font-weight: 700;
+  padding-top: 0.5rem;
 }
-
 .reviewbox {
+  background-color: hsl(300, 43%, 22%);
   margin: 1rem 0;
   padding: 2rem;
-  background-color: hsl(300, 43%, 22%);
 }
-
 .profile {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 .profile img {
-  margin: 0 1rem 1rem 0;
   border-radius: 50%;
   height: 45px;
+  margin: 0 1rem 1rem 0;
 }
 .nametext {
   color: hsl(0, 0%, 100%);
@@ -69,20 +63,18 @@ h1,
   color: hsl(300, 24%, 96%);
 }
 .commenttext {
-  text-align: left;
   color: hsl(300, 24%, 96%);
+  text-align: left;
 }
-
 .ratingbox,
 .reviewbox {
   border-radius: 5px;
 }
-
 @media screen and (min-width: 1000px) {
   body {
-    margin: 0 3rem;
     background: url('../images/bg-pattern-top-desktop.png') top no-repeat,
       url('../images/bg-pattern-bottom-desktop.png') bottom no-repeat;
+    margin: 0 3rem;
   }
   header {
     display: flex;
@@ -91,17 +83,16 @@ h1,
   .intro {
     padding-right: 15rem;
   }
-
   .intro,
   .rating-cont {
-    width: 50%;
     position: relative;
+    width: 50%;
   }
   .ratingbox {
-    width: 450px;
-    padding: 1rem;
-    display: flex;
     align-items: center;
+    display: flex;
+    padding: 1rem;
+    width: 450px;
   }
   .ratingbox > img {
     height: 100%;
